@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631417636121",
+    "project_id": "easyexams-f15dc",
+    "storage_bucket": "easyexams-f15dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631417636121:android:c59e20772854cdece4b188",
+        "android_client_info": {
+          "package_name": "com.dangle.easyexams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631417636121-7h2tvcfm8lvn7auk13og8rp08pcqiet9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8-jF-rSz9GIsFi9kSIEqV3CRo_clp08I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631417636121-7h2tvcfm8lvn7auk13og8rp08pcqiet9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

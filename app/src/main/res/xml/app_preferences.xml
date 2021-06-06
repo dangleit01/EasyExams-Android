@@ -1,5 +1,5 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.corp.srihari.deca.PreferenceCategoryClass
+    <com.dangle.easyexams.PreferenceCategoryClass
         android:title="General">
 
         <ListPreference
@@ -8,9 +8,9 @@
             android:entryValues="@android:array/emailAddressTypes"
             android:key="list_preference_1"
             android:title="Transition Time" />
-    </com.corp.srihari.deca.PreferenceCategoryClass>
+    </com.dangle.easyexams.PreferenceCategoryClass>
 
-    <com.corp.srihari.deca.PreferenceCategoryClass
+    <com.dangle.easyexams.PreferenceCategoryClass
         android:title="Support"
         >
         <Preference
@@ -23,9 +23,9 @@
             android:data="https://sriharivishnu.wixsite.com/magnitudestudios" />
         </Preference>
 
-    </com.corp.srihari.deca.PreferenceCategoryClass>
+    </com.dangle.easyexams.PreferenceCategoryClass>
 
-    <com.corp.srihari.deca.PreferenceCategoryClass
+    <com.dangle.easyexams.PreferenceCategoryClass
         android:title="User">
         <Preference
             android:key="clear"
@@ -42,7 +42,7 @@
             android:selectable="true"
             />
 
-    </com.corp.srihari.deca.PreferenceCategoryClass>
+    </com.dangle.easyexams.PreferenceCategoryClass>
 
 
 </PreferenceScreen>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.corp.srihari.deca">
+    package="com.dangle.easyexams">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.dangle.easyexams.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.dangle.easyexams.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,27 +22,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ExamActivity"
+            android:name="com.dangle.easyexams.ExamActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".Learn" />
+        <activity android:name="com.dangle.easyexams.Learn" />
         <activity
-            android:name=".EndGame"
+            android:name="com.dangle.easyexams.EndGame"
             android:screenOrientation="portrait" />
-        <activity android:name=".WrongAnswersActivity" />
-        <activity android:name=".FullExam" />
+        <activity android:name="com.dangle.easyexams.WrongAnswersActivity" />
+        <activity android:name="com.dangle.easyexams.FullExam" />
         <activity
-            android:name=".PerformanceIndicators"
+            android:name="com.dangle.easyexams.PerformanceIndicators"
             android:screenOrientation="portrait" />
-        <activity android:name=".ChooseExam" />
+        <activity android:name="com.dangle.easyexams.ChooseExam" />
         <activity
             android:name=".SettingsActivity"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.dangle.easyexams.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionBankActivity"
+            android:name="com.dangle.easyexams.QuestionBankActivity"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name="com.dangle.easyexams.LoginActivity" />
+        <activity android:name="com.dangle.easyexams.RegisterActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

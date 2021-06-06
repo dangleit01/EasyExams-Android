@@ -1,4 +1,4 @@
-package com.corp.srihari.deca;
+package com.dangle.easyexams;
 
 import org.junit.Test;
 
